@@ -1,0 +1,20 @@
+Run create.sh on the terminal: ./create.sh ourdemoinfra ourinfra.yml ourinfra-params.json
+
+Run update.sh on the terminal: ./update.sh ourdemoinfra ourinfra.yml ourinfra-params.json
+
+
+Stage 1:
+Create VPC Infrastructure
+ - create.sh and update.sh
+ - Determine the Stack Name ($1)
+ - VpcInfrastructure.yml ($2)
+ - VpcInfrastructureParameter.json ($3)
+
+Stage 2: //You can use a different StackName
+Create Servers, Security Groups & ASG
+ - ServerInfrastructure.yml
+ - ServerInfrastructureParameter.json 
+
+ Stage 3:
+ Create 
+  - 
